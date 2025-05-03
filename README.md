@@ -13,32 +13,32 @@ A fully automated post-installation setup script for fresh **Kali Linux** instal
 
 ✅ Stylized **RTX terminal banner** using `figlet`  
 ✅ Smart update & upgrade prompts  
-✅ Installs **Geany**, `xclip`, `feh`, and other daily tools  
+✅ Installs **Geany**, `xclip`, `feh`, and other tools  
 ✅ Applies a custom **desktop wallpaper**  
 ✅ Applies a matching **lock screen wallpaper** via LightDM  
-✅ Forces `numlock` to be enabled on login  
-✅ Auto-configures `.zshrc` alias `xc` → clipboard copy shortcut  
+✅ Enables `numlock` on login  
+✅ Adds `.zshrc` alias: `xc` → clipboard copy shortcut  
 ✅ Ends with an interactive **countdown reboot**
 
 ---
 
 ## 📷 Screenshots
 
-> ![RTX Banner Preview](https://github.com/MR-Suda/New-Machine-Setup-RTX/blob/main/Desktop_Wallpaper.png)
+> ![RTX Banner Preview](https://github.com/MR-Suda/New-Machine-Setup-RTX/raw/main/Desktop_Wallpaper.png)
 
 ---
 
 ## ⚙️ Requirements
 
-- A fresh Kali installation (tested with [official VMware image](https://www.kali.org/get-kali/#kali-virtual-machines))
-- Must be run **as root** or using `sudo`
-- Internet connection
+- Fresh Kali installation (tested with [official VMware image](https://www.kali.org/get-kali/#kali-virtual-machines))
+- Must be run **as root** or with `sudo`
+- Internet connection required (for `apt`, `wget`)
 
 ---
 
 ## 📥 Installation
 
 ```bash
-git clone https://github.com/MR-Suda/New-Machine-Setup-RTX/blob/main/NewKaliSetUp.sh
+git clone https://github.com/MR-Suda/New-Machine-Setup-RTX.git
 cd New-Machine-Setup-RTX
 sudo bash NewKaliSetUp.sh
