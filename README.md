@@ -3,7 +3,7 @@
 A fully automated post-installation setup script for fresh **Kali Linux** installations, designed for **RTX Red Team** students and penetration testers who want a fast, stylish, and functional environment.
 
 > 🛠️ **Version:** 1.2  
-> 🧑‍💻 **Author:** [David] & [MR-Suda](https://github.com/MR-Suda)  
+> 🧑‍💻 **Author:** David & [MR-Suda](https://github.com/MR-Suda)  
 > 🎯 **Target OS:** Kali Linux (VM or Bare Metal)  
 > 🖥️ **Desktop Environment:** XFCE + LightDM
 
