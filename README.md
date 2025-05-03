@@ -39,6 +39,6 @@ A fully automated post-installation setup script for fresh **Kali Linux** instal
 ## 📥 Installation
 
 ```bash
-git clone https://github.com/MR-Suda/New-Machine-Setup-RTX.git
+git clone https://github.com/MR-Suda/New-Machine-Setup-RTX/blob/main/NewKaliSetUp.sh
 cd New-Machine-Setup-RTX
-sudo bash setup.sh
+sudo bash NewKaliSetUp.sh
